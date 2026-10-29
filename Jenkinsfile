@@ -8,7 +8,7 @@ pipeline{
         }
         stage('Show Files'){
             steps{
-                sh 'dir'
+                sh 'ls -l'
             }
         }
         stage('Run Test'){
